@@ -1,0 +1,17 @@
+.liha
+{font-weight: bolder;
+color: #d70303;
+}
+body
+{
+  margin: 75px;
+}
+table, th, td
+{
+  border: 1px solid black;
+border-collapse: collapse;
+}
+tr:nth-child(even)
+{
+  background-color: #cecccc
+}
