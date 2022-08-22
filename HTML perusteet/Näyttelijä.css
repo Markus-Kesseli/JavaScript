@@ -1,0 +1,20 @@
+.vasen
+{
+ margin: 30px;
+}
+.oikea
+{
+  margin: 30px; float: right;
+}
+
+h2
+{clear: both;}
+
+body
+{
+  margin: 250px
+}
+.article
+{
+  margin: 0; padding: 5px; background-color: lightgray;
+}
