@@ -4,7 +4,7 @@
 }
 .oikea
 {
-  margin: 30px; float: right;
+  margin: 5px; float: right;
 }
 
 h2
@@ -16,5 +16,5 @@ body
 }
 .article
 {
-  margin: 0; padding: 5px; background-color: lightgray;
+  margin: 0; padding: 10px; background-color: lightgray;
 }
