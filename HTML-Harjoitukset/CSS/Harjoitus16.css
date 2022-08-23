@@ -1,0 +1,100 @@
+#väri
+{
+  font-family: 'Shadows Into Light', cursive;
+  color: green
+}
+
+#nimi
+{
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-family: 'DynaPuff', cursive;
+}
+
+#rubik
+{
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-family: 'DynaPuff', cursive;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+#anton
+{
+  font-family: 'Anton', sans-serif;
+}
+
+#dancing
+{
+  font-family: 'Dancing Script', cursive;
+}
+
+#hatch
+{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Rubik Marker Hatch', cursive;
+}
+
+#light
+{
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#a
+{
+  font-size: 50%;
+  color: #FFFF00
+}
+
+#b
+{
+  font-size: 100%;
+  color: #FF0000
+
+}
+
+#c
+{
+  font-size: 150%;
+  color: #08FF00
+}
+
+#d
+{
+  font-size: 200%;
+  color: #00FBFF
+}
+
+#e
+{
+  font-size: 250%;
+  color: #7C00FF
+}
+
+#f
+{
+  font-size: 250%;
+  color: #99C809
+}
+
+#g
+{
+  font-size: 200%;
+  color: #16A87C
+}
+
+#h
+{
+  font-size: 150%;
+  color: #69A44F
+}
+
+#i
+{
+  font-size: 100%;
+  color: #5E0D50
+}
+
+#j
+{
+  font-size: 50%;
+  color: #A9470B
+}
