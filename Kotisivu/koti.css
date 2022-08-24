@@ -1,0 +1,22 @@
+body
+{
+  width: 800px;
+  margin: auto;
+}
+
+aside
+{
+  float: right;
+  background-color: #D0B27A;
+  height: 480px;
+}
+nav
+{
+  width: 200px;
+  margin: auto;
+  background-color: #FFF2D9;
+}
+header, footer
+{
+  background-color: #F5DEB3
+}
