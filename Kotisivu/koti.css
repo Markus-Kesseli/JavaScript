@@ -3,20 +3,42 @@ body
   width: 800px;
   margin: auto;
 }
-
-aside
+header, footer
 {
-  float: right;
-  background-color: #D0B27A;
-  height: 480px;
+  background-color: #FFFACD;
+  padding: 5px 0px 10px 10px;
+
+}
+header > h1
+{
+  color: #B7AE5F;
 }
 nav
 {
-  width: 200px;
+  width: 198px;
   margin: auto;
-  background-color: #FFF2D9;
+  background-color: #DBD494;
 }
-header, footer
+aside
 {
-  background-color: #F5DEB3
+  float: right;
+  background-color: #B7AE5F;
+  height: 540px;
+}
+section
+{
+  background-color: #DBD494;
+  width: 617px;
+}
+aside, section
+{
+  padding: 5px 0px 10px 10px;
+}
+aside > p
+{
+  padding-right: 15px
+}
+aside, h2
+{
+  margin: auto;
 }
