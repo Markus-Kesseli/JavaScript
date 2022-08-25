@@ -2,24 +2,21 @@ body
 {
   width: 800px;
   margin: auto;
+  background-color: #D2D2B2
 }
 header, footer
 {
-  background-color: #FFFACD;
+  background-color: #ADAD85;
   padding: 5px 0px 10px 10px;
+}
 
-}
-header > h1
-{
-  color: #B7AE5F;
-}
 nav
 {
-  width: 198px;
+  width: 206px;
   margin: auto;
   background-color: #DBD494;
 }
-aside
+#sivu
 {
   float: right;
   background-color: #B7AE5F;
@@ -42,3 +39,13 @@ aside, h2
 {
   margin: auto;
 }
+
+li
+{
+margin-top: 8px;
+}
+#sivu2
+{
+  float: right;
+  background-color: #B7AE5F;
+  height: 574px;
