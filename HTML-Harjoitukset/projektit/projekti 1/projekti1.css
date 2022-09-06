@@ -1,0 +1,69 @@
+body
+{
+  width: 900px;
+  margin: auto;
+  background: #CADEE0;
+  padding: 20px 0 10px 10px;
+}
+
+
+header, h1, h2
+{
+padding-top: 5px;
+margin-bottom: -20px;
+font-family: 'Anton', sans-serif;
+}
+nav
+{
+  text-align: right;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+nav a
+{
+  font-size: 20px;
+  padding: 10px 5px;
+}
+#vasen
+{
+  float: left;
+  height: 120px;
+}
+section h2
+{
+  padding-left: 70px;
+}
+
+h5
+{
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+ul img
+{
+  height: 200px;
+  padding: 10px 30px;
+}
+#isokuva
+{
+  height: 270px;
+margin: auto;
+padding-top: 6px;
+}
+
+.aside
+{
+  float: right;
+  border: 2px solid;
+  border-radius: 15px;
+  padding: 30px 20px 30px 30px;
+  background-color: #afcdd0;
+  text-align: center;
+}
+aside img
+{
+  height: 130px;
+}
