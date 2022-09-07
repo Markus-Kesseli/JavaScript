@@ -2,23 +2,30 @@ body
 {
   width: 900px;
   margin: auto;
-  background: #CADEE0;
   padding: 20px 0 10px 10px;
 }
-
-
-header, h1, h2
+main
 {
-padding-top: 5px;
-margin-bottom: -20px;
-font-family: 'Anton', sans-serif;
+  background: #F5F6DB;
 }
+header
+{
+display: block;
+}
+h1
+{
+  font-family: 'Anton', sans-serif;
+  margin-bottom: -20px;
+  display: inline-block;
+  font-size: 45px;
+}
+
 nav
 {
   text-align: right;
-  font-family: 'Anton', sans-serif;
   font-size: 25px;
   padding-bottom: 10px;
+  font-family: 'Anton', sans-serif;
 }
 nav a
 {
@@ -27,17 +34,23 @@ nav a
 }
 #vasen
 {
-  float: left;
-  height: 120px;
-}
-section h2
-{
-  padding-left: 70px;
+    display: inline-block;
+      height: 50px;
 }
 
+section
+{
+  width: 60%;
+  float: left;
+}
+article
+{
+  padding: 5px 5px 5px 20px;
+}
 h5
 {
-  margin-top: 15px;
+  margin-left: 48px;
+  margin-top: 5px;
   font-size: 20px;
   font-family: 'Lobster', cursive;
 }
@@ -53,17 +66,65 @@ ul img
 margin: auto;
 padding-top: 6px;
 }
-
+hr
+{
+  height: 7%;
+  color: #808080;
+  clear: both;
+}
 .aside
 {
   float: right;
-  border: 2px solid;
-  border-radius: 15px;
-  padding: 30px 20px 30px 30px;
-  background-color: #afcdd0;
-  text-align: center;
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #787878;
 }
 aside img
 {
-  height: 130px;
+  height: 80px;
+  padding-top: 20px;
+  text-align: center;
+}
+footer
+{
+  padding-bottom: 10px;
+}
+
+.vasen
+{
+  float: left;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.keski img
+{
+  width: 150px;
+  margin: auto;
+  padding: 0px 100px -100px;
+}
+
+aside p
+{
+  color: #00E5FF
+}
+p
+{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+h2
+{
+  display: inline-block;
+  font-family: 'Anton', sans-serif;
+}
+aside a img
+{
+height: 40px;
+
 }
