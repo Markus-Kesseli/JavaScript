@@ -1,0 +1,20 @@
+h1
+{
+  text-align: center;
+
+}
+main
+{
+  width: 25em;
+  height: 28em;
+  margin: auto;
+  background: #ffffcc;
+  padding-top: 10px;
+  border-radius: 10px;
+
+}
+input
+{
+  border-radius: 8px;
+  background-color: #d9d9d9;
+}
