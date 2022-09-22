@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="harjoitus.js"></script>
+    <link rel="stylesheet" href="harjoitus.css">
+  </head>
+  <body>
+<main>
+  <form class="" action="index.html" method="post">
+      <fieldset>
+          <table>
+        <tr>
+          <td>Anna etunimesi</td>
+          <td><input type="text" id="enimi" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Anna sukunimesi</td>
+          <td><input type="text" id="snimi" name="" value=""></td>
+        </tr>
+                  </table>
+        </fieldset>
+            <fieldset id="koulu">
+              <h4>Tulin tänään kouluun:</h4>
+              <input type="radio" id="kouluun" name="kouluun" value="junalla">Jalan<br>
+              <input type="radio" id="kouluun" name="kouluun" value="autolla">Autolla<br>
+              <input type="radio" id="kouluun" name="kouluun" value="junalla">Junalla<br>
+              <input type="radio" id="kouluun" name="kouluun" value="bussilla">Bussilla<br>
+              <input type="radio" id="kouluun" name="kouluun" value="mopolla">Mopolla<br>
+              <input type="radio" id="kouluun" name="kouluun" value="uiden">Uiden
+            </fieldset>
+
+
+            <fieldset>
+              <h4>Lempituntini koulussa:</h4>
+              <select class="" name="aineeni">
+                <option value="tietotekniikka">Tietotekniikka</option>
+                <option value="kielet">Kielet</option>
+                <option value="matematiikka">Matematiikka</option>
+                <option value="yhteiskunta-aineet">Yhteiskunta-aineet</option>
+                <option value="ruokatunti">Ruokatunti</option>
+              </select>
+              <button type="button" onclick="lomake()" name="button">Lähetä</button>
+            </fieldset>
+  </form>
+
+</main>
+  <p id="tulos"></p>
+  </body>
+</html>
