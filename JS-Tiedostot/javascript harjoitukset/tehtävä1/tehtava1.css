@@ -1,7 +1,7 @@
 body
 {
   margin: auto;
-  margin: 20px 20px;
+  width: 900px;
 }
 
 .f1
@@ -41,5 +41,5 @@ body
 {
 margin-bottom: 20px;
 width: 400px;
-float: left;
+margin-left: 200px;
 }
