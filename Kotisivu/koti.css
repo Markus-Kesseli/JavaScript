@@ -16,11 +16,18 @@ nav
   margin: auto;
   background-color: #DBD494;
 }
-#sivu
+#sivu1
 {
   float: right;
   background-color: #B7AE5F;
-  height: 540px;
+  height: 253px;
+}
+
+#sivu3
+{
+  float: right;
+  background-color: #B7AE5F;
+  height: 539px;
 }
 section
 {
