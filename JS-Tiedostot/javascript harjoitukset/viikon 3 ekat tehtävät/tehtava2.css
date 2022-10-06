@@ -1,0 +1,66 @@
+body
+{
+  margin: auto;
+  width: 950px;
+}
+
+h1
+{
+  text-align: center;
+}
+
+.t1
+{
+  float: left;
+  margin: 20px 20px;
+  width: 400px;
+}
+
+.t2
+{
+float: right;
+  margin: 20px 20px;
+  width: 400px;
+}
+
+.t3
+{
+  float: left;
+  margin: 20px 20px;
+  width: 400px;
+}
+
+.t4
+{
+  float: right;
+  margin: 20px 20px;
+  width: 400px;
+}
+
+.t5
+{
+    float: left;
+    margin: 20px 20px;
+    width: 400px;
+}
+
+.t6
+{
+  float: right;
+  margin: 20px 20px;
+  width: 400px;
+}
+
+.t7
+{
+
+  margin: 20px 20px;
+  width: 400px;
+}
+
+.t8
+{
+
+  margin: 20px 20px;
+  width: 400px;
+}
