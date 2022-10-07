@@ -46,7 +46,11 @@
     </fieldset>
     <fieldset class="t5">
       <h3>Tehtävä 5</h3>
-      <p></p>
+      <p>Kirjoita ohjelma, joka tulostaa näytölle<br>
+        luvut 1-100, kuitenkin siten, että jos luku<br>
+        on 3:lla jaollinen, tulostetaan jes ja viidellä<br>
+        jaollinen tulostetaan jee ja jos sekä viidellä<br>
+        että kolmella jaollinen, tulostetaan hipheijaa</p>
         <form class="" action="index.html" method="post">
           <button type="button" onclick="teh5()" name="button">Näytä</button>
           <p id="v5"></p>
@@ -64,30 +68,52 @@
       <h3>Tehtävä 7</h3>
       <p>Laske 10 ensimmäistä numeroa yhteen</p>
       <form class="" action="index.html" method="post">
-        <button type="button" onclick="tehtava7" name="button"></button>
+        <button type="button" onclick="teh7()" name="button">Laske</button>
+        <p id="v7"></p>
       </form>
     </fieldset>
     <fieldset class="t8">
-      <h3>Tehtävä 7</h3>
+      <h3>Tehtävä 8</h3>
       <p>Anna luvut jotka haluat laskea</p>
         <form class="" action="index.html" method="post">
           <p>Anna korotettava luku: <input type="text" id="tehtava8" name="" value=""></p>
           <p>Anna potenssi: <input type="text" id="tehtava81" name="" value=""></p>
           <button type="button" onclick="teh8()" name="button">Laske</button>
-          <p id="v7"></p>
+          <p id="v8"></p>
         </form>
     </fieldset>
     <fieldset class="t9">
       <h3>Tehtävä 9</h3>
       <p>Anna numerot joista haluat etsiä suurimman ja pienimmän</p>
       <form class="" action="index.html" method="post">
-        <p>Anna 1. luku: <input type="text" id="tehtava91" name="" value=""></p>
-        <p>Anna 2. luku: <input type="text" id="tehtava92" name="" value=""></p>
-        <p>Anna 3. luku: <input type="text" id="tehtava93" name="" value=""></p>
-        <p>Anna 4. luku: <input type="text" id="tehtava94" name="" value=""></p>
-        <p>Anna 5. luku: <input type="text" id="tehtava95" name="" value=""></p>
+        <p>Anna 1. luku: <input type="text" id="l1[0]" name="" value=""></p>
+        <p>Anna 2. luku: <input type="text" id="l1[1]" name="" value=""></p>
+        <p>Anna 3. luku: <input type="text" id="l1[2]" name="" value=""></p>
+        <p>Anna 4. luku: <input type="text" id="l1[3]" name="" value=""></p>
+        <p>Anna 5. luku: <input type="text" id="l1[4]" name="" value=""></p>
         <button type="button" onclick="teh9()" name="button">Näytä</button>
+        <p id="v9"></p>
+        <p id="v91"></p>
       </form>
+    </fieldset>
+    <fieldset class="t10">
+      <h3>Tehtävä 10</h3>
+      <p>Ohjelma joka arpoo salasanan väliin satunnaisia kirjaimia</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna salasana: <input type="text" id="tehtava10" name="" value=""> <button type="button" onclick="teh10()" name="button">Näytä</button> </p>
+        <p id="v10"></p>
+      </form>
+    </fieldset>
+    <fieldset class="t11">
+      <h3>Tehtävä 11</h3>
+      <p>Ohjelma joka tulostaa tuolla välillä parilliset ja parittomat<br>
+        numerot sekä niiden summat</p>
+        <form class="" action="index.html" method="post">
+          <p>Anna pieni numero: <input type="text" id="tehtava11" name="" value=""></p>
+          <p>Anna Iso numero: <input type="text" id="tehtava12" name="" value=""></p>
+          <button type="button" onclick="teh11()" name="button">Laske</button>
+          <p id="v11"></p>
+        </form>
     </fieldset>
   </body>
 </html>

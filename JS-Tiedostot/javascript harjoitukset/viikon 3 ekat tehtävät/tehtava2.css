@@ -14,6 +14,7 @@ h1
   float: left;
   margin: 20px 20px;
   width: 400px;
+  background-color: #F4FA58;
 }
 
 .t2
@@ -21,6 +22,7 @@ h1
 float: right;
   margin: 20px 20px;
   width: 400px;
+  background-color: #9AFE2E;
 }
 
 .t3
@@ -28,6 +30,7 @@ float: right;
   float: left;
   margin: 20px 20px;
   width: 400px;
+  background-color: #8258FA;
 }
 
 .t4
@@ -35,6 +38,7 @@ float: right;
   float: right;
   margin: 20px 20px;
   width: 400px;
+  background-color: #04B4AE;
 }
 
 .t5
@@ -42,6 +46,7 @@ float: right;
     float: left;
     margin: 20px 20px;
     width: 400px;
+    background-color: #B18904;
 }
 
 .t6
@@ -49,18 +54,45 @@ float: right;
   float: right;
   margin: 20px 20px;
   width: 400px;
+  background-color: #086A87;
 }
 
 .t7
 {
-
+  float: left;
   margin: 20px 20px;
   width: 400px;
+  background-color: #FF00BF;
 }
 
 .t8
 {
-
+  float: right;
   margin: 20px 20px;
   width: 400px;
+  background-color: #38610B;
+}
+
+.t9
+{
+  float: left;
+  margin: 20px 20px;
+  width: 400px;
+  background-color: #CC2EFA;
+}
+
+.t10
+{
+  float: right;
+  margin: 20px 20px;
+  width: 400px;
+  background-color: #610B0B;
+}
+
+.t11
+{
+float: left;
+  margin: 20px 20px;
+  width: 400px;
+  background-color: #FF0040;
 }
