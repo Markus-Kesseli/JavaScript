@@ -51,6 +51,7 @@ switch (viikko)
   }
 }
 
+//en teidä mikä tässä mättää, kun näyttää aina että vuosi on karkausvuosi.
 function vuosi()
 {
 var vuosi = document.getElementById('luku').value;
