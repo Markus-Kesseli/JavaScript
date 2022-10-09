@@ -88,7 +88,7 @@ function teh6()
 function teh7()
 {
   laskenta = 0;
-  for(var p = 1; p <=10; p++)
+  for(var p = 1; p <= 10; p++)
   {
     laskenta+= p;
   }
