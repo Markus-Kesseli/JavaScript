@@ -54,21 +54,19 @@ switch (viikko)
 //en teidä mikä tässä mättää, kun näyttää aina että vuosi on karkausvuosi.
 function vuosi()
 {
-var vuosi = document.getElementById('luku').value;
-  if (vuosi / 4)
+var vuosi = parseInt(document.getElementById('luku').value);
+  if(vuosi%4 == 0 && vuosi&100 != 0)
   {
-    tulos='Vuosi on karkausvuosi';
+    document.getElementById('te3').innerHTML = "Vuosi on karkausvuosi"
   }
-  else if (vuosi /! 100)
+  else if(vuosi%400 == 0)
   {
-    tulos='Vuosi on karkausvuosi';
+    document.getElementById('te3').innerHTML = "Vuosi on karkausvuosi"
   }
-  if (vuosi / 400)
-  {
-    tulos='Vuosi on karkausvuosi';
-    tulos='Vuosi ei ole karkausvuosi';
-  }
-  document.getElementById('te3').innerHTML = tulos;
+  else
+    {
+      document.getElementById('te3').innerHTML = "Vuosi ei ole karkausvuosi"
+    }
 }
 
 function laske()
