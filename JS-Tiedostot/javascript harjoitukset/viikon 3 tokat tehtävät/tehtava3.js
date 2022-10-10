@@ -1,4 +1,4 @@
-function tehtava1() //mikähän mahtaa olla pielessä, kun antaa 12 pistettä joka kirjaimelle eikä näytä kirjainta vaan NaN?
+function tehtava1() 
 {
   var kirjain = parseInt(document.getElementById('t1').value);
   var piste = 0;
