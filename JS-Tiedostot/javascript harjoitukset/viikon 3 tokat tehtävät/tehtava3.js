@@ -2,35 +2,75 @@ function tehtava1() //mikähän mahtaa olla pielessä, kun antaa 12 pistettä jo
 {
   var kirjain = parseInt(document.getElementById('t1').value);
   var piste = 0;
-  for(var i = 0; i <kirjain.lenght; i++);
+  for(var i = 0; i < kirjain.lenght; i++);
 {
   switch (kirjain[i])
 {
-    case 'a', 'A', 'e', 'E', 'i', 'I', 'n', 'N', 's', 'S', 't', 'T':
+    case 'a':
+    case 'A':
+    case 'e':
+    case 'E':
+    case 'i':
+    case 'I':
+    case 'n':
+    case 'N':
+    case 's':
+    case 'S':
+    case 't':
+    case 'T':
       piste++;
       break;
 
-    case 'o', 'O', 'ä', 'Ä', 'k', 'K', 'l', 'L':
+    case 'o':
+    case 'O':
+    case 'ä':
+    case 'Ä':
+    case 'k':
+    case 'K':
+    case 'l':
+    case 'L':
       piste+=2;
       break;
 
-    case 'u', 'U', 'm', 'M':
+    case 'u':
+    case 'm':
+    case 'M':
       piste+=3;
       break;
 
-    case 'y', 'Y', 'h', 'H', 'j', 'J', 'p', 'P', 'r', 'R', 'v', 'V':
+    case 'y':
+    case 'Y':
+    case 'h':
+    case 'H':
+    case 'j':
+    case 'J':
+    case 'p':
+    case 'P':
+    case 'r':
+    case 'R':
+    case 'v':
+    case 'V':
       piste+=4;
       break;
 
-    case 'ö', 'Ö', 'd', 'D':
+    case 'ö':
+    case 'Ö':
+    case 'd':
+    case 'D':
       piste+=7
       break;
 
-    case 'b', 'B', 'f', 'F', 'g', 'G':
+    case 'b':
+    case 'B':
+    case 'f':
+    case 'F':
+    case 'g':
+    case 'G':
       piste+=8;
       break;
 
-    case 'c', 'C':
+    case 'c':
+    case 'C':
       piste+=10;
       break;
 
