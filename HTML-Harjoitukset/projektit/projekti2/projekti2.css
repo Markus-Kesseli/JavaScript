@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chewy&family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chewy&family=Kanit&family=Palanquin+Dark&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chewy&family=Kanit&family=Oswald:wght@300&family=Palanquin+Dark&display=swap');
 
 h1
 {
@@ -22,9 +22,10 @@ body
   background-color: #898989;
   border-radius: 10px;
   padding-bottom: 15px;
-  
+
 
 }
+
 
 #kuva
 {
@@ -51,8 +52,20 @@ body
 
 #tribute-link
 {
-  margin-left: 40px;
+  margin-left: 70px;
 
+}
+
+#tieto
+{
+  margin-left: 100px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.henk
+{
+margin-left: 15px;
+font-family: 'Oswald', sans-serif;
 }
 
 footer
