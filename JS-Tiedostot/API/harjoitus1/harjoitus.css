@@ -1,0 +1,19 @@
+body
+{
+  margin: auto;
+  width: 800px;
+}
+
+.field
+{
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
+  width: 300px;
+}
+
+button
+{
+  margin-left: 100px;
+  margin-top: 10px;
+}
