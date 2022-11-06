@@ -12,14 +12,14 @@ var email = (data.results[0].email);
 var puh = (data.results[0].phone);
 var suku = (data.results[0].gender)
 var saika = (data.results[0].dob.date)
-var kuva = (data.results[0].picture.medium)
+var kuva = (data.results[0].picture.large)
 console.log(data);
 
 //console.log(data.results[0].name);
 //
 document.getElementById('tulos').innerHTML = "<b>Nimi:</b> " + henk + "<br>" + "<b>Sukupuoli:</b> " + suku + "<br>" + "<b>Osoite:</b> "
 + osoite + "<br>" + "<b>Sähköposti:</b> " + email + "<br>" + "<b>Puhelinumero:</b> " + puh + "<br>" + "<b>Syntymäaika:</b> " + saika;
-document.getElementById('kuvat').innerHTML = kuva;
+document.getElementById('kuvat').src = kuva;
 //  console.log(data.results[0].name);
   } );
   }
