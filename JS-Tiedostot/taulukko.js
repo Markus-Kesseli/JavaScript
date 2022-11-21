@@ -4,7 +4,7 @@ function esimerkkiTaulukko()
   var autot = [];
   var caarat = ["Tesla", " VW i3", " Hyundai Ionic"];
   autot.push("jeep");
-  document.write("Caara[1] = " + caarat[1] + " / autot[0] = " + autot[0] + "<br />");
+  document.write("Caara = " + caarat[1] + " / autot = " + autot[0] + "<br />");
   document.write("Caara = " + caarat + "<br />");
   document.write("Autot = " + autot + "<br />");
   var siirrettavat = caarat.pop();
